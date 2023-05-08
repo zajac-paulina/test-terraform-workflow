@@ -1,3 +1,3 @@
-output "greeting" {
-  value = null_resource.greeting.id
+output "script_path" {
+  value = local_file.python_script.filename
 }
